@@ -1,0 +1,20 @@
+Webpack: Is no just a Bundler!
+Bundler: Concatenate files and optimizes them
+Webpack does more: 
+-Loaders: Transpilation = transform files from Next Gen Features to Current Gen Features
+***Next Gen features:
+How it works? Webpack has Features:
+-One entry point: Root javascript file. Webpack builds the dependency tree from the root file.
+-Loaders: Applied in a "per level file". They apply transformations for a files (Ex: babel loader and css loader).
+-Plugins: Applied to a "concatenated file". Apply a GLOBAL transformation (Ex: uglify).
+
+
+Building our own Webpack config:
+-Support Next Gen Javascript Features (so we need this loader)
+-Handle JSX
+-Css Autoprefixing
+-Support image imports
+-Optimize the code
+
+
+Webpack config: Entrypoint=  is the file webpack will use to build the app and dependencies

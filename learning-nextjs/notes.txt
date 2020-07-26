@@ -1,0 +1,17 @@
+NEXTJS
+
+-It is a framework, built upon React, used for Server-Side Rendering Applications
+
+Server Side Rendering (SRR)
+-Typically: Client requests the  page => Server fetches React code => 
+                            => Server sende the Code to the Client => Client Renders the App
+-With SRR: Client requests the (first) page => Server fetches, renders the App and send to the client
+
+-It all about the "first render", actually. After the first rendering, everything works as it is not SSR
+
+-It does Multipage Application, using "folders as routes"
+
+
+Why use SRR?
+-
+
